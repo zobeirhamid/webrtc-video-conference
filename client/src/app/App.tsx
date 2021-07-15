@@ -12,7 +12,7 @@ function App() {
   return (
     <WebRTCDeviceManagerProvider>
       <UserProvider>
-        <SocketProvider endpoint={"http://localhost:5000"}>
+        <SocketProvider endpoint={"https://webrtc-video-conference-server.herokuapp.com/"}>
           <PeerManagerProvider>
             <ChatProvider>
               <Router>
