@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/webrtc-video-conference/static/css/main.73025a6e.chunk.css",
-    "main.js": "/webrtc-video-conference/static/js/main.b0129a29.chunk.js",
-    "main.js.map": "/webrtc-video-conference/static/js/main.b0129a29.chunk.js.map",
-    "runtime-main.js": "/webrtc-video-conference/static/js/runtime-main.bf04b727.js",
-    "runtime-main.js.map": "/webrtc-video-conference/static/js/runtime-main.bf04b727.js.map",
-    "static/js/2.945a1eef.chunk.js": "/webrtc-video-conference/static/js/2.945a1eef.chunk.js",
-    "static/js/2.945a1eef.chunk.js.map": "/webrtc-video-conference/static/js/2.945a1eef.chunk.js.map",
+    "main.js": "/webrtc-video-conference/static/js/main.8566bf32.chunk.js",
+    "main.js.map": "/webrtc-video-conference/static/js/main.8566bf32.chunk.js.map",
+    "runtime-main.js": "/webrtc-video-conference/static/js/runtime-main.ff7bb9c8.js",
+    "runtime-main.js.map": "/webrtc-video-conference/static/js/runtime-main.ff7bb9c8.js.map",
+    "static/js/2.49418fbe.chunk.js": "/webrtc-video-conference/static/js/2.49418fbe.chunk.js",
+    "static/js/2.49418fbe.chunk.js.map": "/webrtc-video-conference/static/js/2.49418fbe.chunk.js.map",
     "index.html": "/webrtc-video-conference/index.html",
     "static/css/main.73025a6e.chunk.css.map": "/webrtc-video-conference/static/css/main.73025a6e.chunk.css.map",
-    "static/js/2.945a1eef.chunk.js.LICENSE.txt": "/webrtc-video-conference/static/js/2.945a1eef.chunk.js.LICENSE.txt"
+    "static/js/2.49418fbe.chunk.js.LICENSE.txt": "/webrtc-video-conference/static/js/2.49418fbe.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.bf04b727.js",
-    "static/js/2.945a1eef.chunk.js",
+    "static/js/runtime-main.ff7bb9c8.js",
+    "static/js/2.49418fbe.chunk.js",
     "static/css/main.73025a6e.chunk.css",
-    "static/js/main.b0129a29.chunk.js"
+    "static/js/main.8566bf32.chunk.js"
   ]
 }
