@@ -1,0 +1,71 @@
+.ConferencePage {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.ConferencePage-video-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.ConferencePage-video-container video {
+  display: flex;
+  width: 50vw;
+  height: 50vh;
+}
+
+.ConferencePage-chat {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.ConferencePage-chat-messages {
+  flex: 1;
+  padding: 0 20px 20px 20px;
+}
+
+.ConferencePage-chat-messages div {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.ConferencePage-chat input {
+  padding: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  outline: none;
+  flex: 1;
+  margin-right: 20px;
+}
+
+.ConferencePage-chat-field {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 20px;
+}
+
+@media only screen and (min-width: 800px) {
+  .ConferencePage {
+    flex-direction: row;
+  }
+  .ConferencePage-video-container {
+    width: 80vw;
+  }
+  .ConferencePage-video-container video {
+    width: 40vw;
+  }
+
+  .ConferencePage-chat {
+    width: 20vw;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: lightgray;
+  }
+}

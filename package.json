@@ -1,0 +1,36 @@
+{
+  "name": "webrtc-video-conference",
+  "homepage": "https://zobeirhamid.github.io/webrtc-video-conference",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "WebRTC Video Conference Application using NodeJS in combination with Socket.io and React.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare:local": "NODE_ENV=development node .",
+    "prepare:remote": "NODE_ENV=production node .",
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "postinstall": "npm run install:server && npm run install:client",
+    "build:server": "cd server && npm run build",
+    "build:client": "cd client && npm run build",
+    "start:server": "cd server && npm run start",
+    "start:client": "cd client && npm run start",
+    "start": "npm run start:server & npm run start:client",
+    "deploy:server": "git subtree push --prefix server heroku main",
+    "predeploy:client": "npm run build:client",
+    "deploy:client": "gh-pages --dist 'client/build'",
+    "predeploy": "npm run prepare:remote && npm run git",
+    "deploy": "npm run deploy:server & npm run deploy:client",
+    "postdeploy": "npm run prepare:local",
+    "heroku": "heroku login && heroku create",
+    "git": "git add . && git commit -m 'SET TO REMOTE' && git push"
+  },
+  "author": "Zobeir Hamid",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "dependencies": {
+    "prompt": "^1.1.0"
+  }
+}
